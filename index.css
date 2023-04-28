@@ -1,10 +1,14 @@
 * {
-  font-family: 'Fraunces', serif;
+  font-family: 'Inconsolata', monospace;
   color: rgb(247, 247, 247);
 }
 
 body {
   margin: 0;
+  background-image: url(IMG/Fondo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   background-color: #224870;
 }
 
@@ -19,7 +23,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 75px);
   grid-template-rows: 160px repeat(5, 75px);
-  background-color: #00ccff;
+  background-color: #a05d066c;
   padding: 15px;
   border-radius: 32px;
   box-shadow: 15px 10px 0px 5px #00000033;
@@ -32,7 +36,7 @@ button {
   border-radius: 32px;
   font-size: 1.5em;
   border: none;
-  background-color: #0f0188;
+  background-color: #2a351a;
   box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #00ffc11f;
 }
 
@@ -55,7 +59,7 @@ button:focus {
   margin: 10px 10px 20px;
   flex-direction: column;
   align-items: flex-end;
-  background-color: #464646;
+  background-color: #7e3b10;
   border-radius: 32px;
   text-align: right;
   justify-content: space-between;
